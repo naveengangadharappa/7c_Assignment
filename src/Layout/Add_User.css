@@ -1,0 +1,33 @@
+.Adduser {
+  position: absolute;
+  align-self: center;
+  height: 55%;
+  top: 15%;
+  left: 15%;
+  width: 60%;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Adduser_left {
+  width: 50%;
+  height: 100%;
+  background-color: crimson;
+  padding: 3%;
+}
+
+.Adduser_right {
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  padding: 5%;
+  text-align: left;
+}
+
+.Adduser_buttons {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}

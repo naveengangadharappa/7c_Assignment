@@ -1,0 +1,25 @@
+.searchbar_div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.sidebar {
+  margin-top: 0.1rem;
+  position: absolute;
+  width: 25%;
+  height: 90%;
+  font-size: "100%";
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
+}
+.sidebar_new {
+  margin-top: 5rem;
+  height: 90%;
+  font-size: "100%";
+  color: white;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
+}
+.sidebar_items {
+  border-bottom: 0px;
+  border-top: 0px;
+  background-color: white;
+}
