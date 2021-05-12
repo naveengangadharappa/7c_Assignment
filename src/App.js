@@ -8,7 +8,6 @@ import Navbar from './Components/NavBar/Navbar';
 import Sidebar_cls from './Components/SideBar/Sidebar_cls';
 
 
-
 function App() {
   return (
     <div className="App">

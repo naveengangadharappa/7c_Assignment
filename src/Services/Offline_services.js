@@ -1,5 +1,5 @@
 import { securedBrowserCache } from 'secured-browser-storage';
-securedBrowserCache.config('Naveen@123');
+securedBrowserCache.config(process.env.LocalStorage_Key || 'Naveen@123');
 
 const Offlinestorage = async (params) => {
     return new Promise((resolve, reject) => {

@@ -1,5 +1,4 @@
 import { Navbar } from 'react-bootstrap'
-//import '../../App.css';
 import './Navbar.css';
 import { Dropdown } from 'react-bootstrap';
 

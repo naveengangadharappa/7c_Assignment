@@ -22,7 +22,7 @@ const Admin_Layout = (props) => {
             if (res.status) setuser_list(res.data)
             else setvalidation_msg(res.message);
         } catch (err) {
-            console.log(err);
+            console.log("load data error = ", (err));
             setvalidation_msg('Internal Error');
         }
     }
@@ -59,9 +59,8 @@ const Admin_Layout = (props) => {
 
     return (
         <div className="Admin_layout">
-            {validation_msg && <h5>validation_msg</h5>}
             <Fab variant="extended" size="small" className="button" style={{ marginLeft: 10, float: 'left', width: 100, position: 'relative', backgroundColor: 'rgb(104, 196, 119)', color: 'white', marginBottom: '3%' }} onClick={Set_Adduser}>Add User</Fab>
-            {validation_msg && <h5>validation_msg</h5>}
+            {validation_msg && <h5>{validation_msg}</h5>}
             <Container fluid='lg' >
 
                 <Table responsive="lg" bordered hover>
